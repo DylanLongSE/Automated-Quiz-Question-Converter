@@ -57,3 +57,7 @@ License
 Acknowledgments
   - Advisor: Dr. Wei Jin for guidance and supervision.
   - Collaborator: Danielle Mathieu for contributing to the project development.
+
+Example of Outcome
+
+<img width="1170" alt="Screenshot 2024-11-27 at 6 29 45 PM" src="https://github.com/user-attachments/assets/43f8c03e-f0c4-496e-8438-4b0393a42038">
