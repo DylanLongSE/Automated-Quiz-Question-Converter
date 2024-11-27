@@ -1,0 +1,246 @@
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q5 array for loop an,,,
+QuestionText,"Specify the output of the following code segment.     int[] numbers = {3, 4, 5, 6, 7};    for (int i = 0; i < numbers.length; i++)    {      if ( i == 2 )      {        System.out.print(numbers[i]);      }      else if ( i == 3 )      {        System.out.print(numbers[i-3]);        System.out.print(numbers[i-1]);        System.out.print(numbers[i]);      }      else if ( i == 4 )      {        System.out.print(numbers[i-4]);        System.out.print(numbers[i-2]);        System.out.print(numbers[i]);      }    } Note that if there is no output, please specify "nothing" (no quotes) in the blank for the output. Output of the code: _______",,,
+Points,10,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[5356357]",
+Option,"[33537]"
+Option,"[34567245357]"
+Option,"[nothing]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q4 while loop,,,
+QuestionText,"Specify the variables' values after the following code segment is executed.     int sum = 10;    int x = 2;     while (sum <= 20) {      sum += x;      x = x + 3;    } x:  _______ sum:  _______",,,
+Points,10,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[11, 25]",
+Option,"[5, 17]"
+Option,"[11, 23]"
+Option,"[8, 17]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q8 method invocation,,,
+QuestionText,"Read the method definition below:     public static void f(int x, int y) {     System.out.print("f" + x + "-" + y);     g(x * 2, y * 2);     System.out.print("f" + x + "-" + y);   }     public static void g(int x, int y) {     System.out.print("g" + x + "-" + y);     x = x * y;     System.out.print("g" + x + "-" + y);   }    Given the code above, what is printed by the following code segment?       f(1, 2);   Note that if there is no output, please specify "nothing" (no quotes) in the blank for the output. output:  _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[f1-2g2-4g8-4f1-2]",
+Option,"[g1-2]"
+Option,"[f1-2 g2-4 g8-4 f8-4]"
+Option,"[f 2 - 2]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q19 (code writing - method call),,,
+QuestionText,"public static void compose(String s1, String s2, int num) {   System.out.println(s1 + " is " + num + " times better than " + s2 + "."); }   Given the above method, write the code invoking the method to display a message as follows: Orange is 5 times better than Orange Juice.    _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[compose("Orange", "Orange Juice", 5);]",
+Option,"[String s1=input.nextLine; String s2=input.nextLine int num=in]"
+Option,"[compose(orange, orange juice, 5);]"
+Option,"[s1 " is " num " times better than " s2.]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q15-oo2-inheritance,,,
+QuestionText,"Given the following class definitions, class A{  private int orig;   public A(int t)   {    orig = t;    System.out.print("A-");  }   @Override  public String toString()  {    return orig + "-";  }} class B extends A{  private int size;   public B (int x, int y)   {    super(x);    size = y;    System.out.print("B-");  }} What is the output of the following code segment?     B w = new B(2, 8);    System.out.print(w); Output of the program: _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[A-B-2-]",
+Option,"[B-]"
+Option,"[A-B-A-B-]"
+Option,"[-2-8-]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q11 array and while,,,
+QuestionText,"Specify the variables' values after the following code segment is executed.     int[] nums = {3, 6, 8, 2, 4, 5, -2, -7, 0, 2, -9};    int i = 0;    int count = 0;     while (i <= nums.length)    {      if (nums[i] <= 0)       {        break;      }      else if (nums[i] > 3)      {        count = count + 1;      }      i = i + 1;    } i:  _______  count:  _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[6, 4]",
+Option,"[12, 4]"
+Option,"[5, 4]"
+Option,"[10, 4]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q9 nested if and mul,,,
+QuestionText,"What are variables' values after the following code segment is executed?    int a = 3;    int b = 9;    int c = 5;     if ( b <= (a+c) )    {      if ( b >= c )      {        a = a * a;      }      else      {        c = c * c;      }    }    else    {      if ( c >= a )      {        if ( b >= c)        {          b = b * b;        }        else        {          c = c * c;        }      }    }     if (b >= (a*a) )    {      a = a * a;    }    else    {      b = b * 2;    } a:  _______ b:  _______ c:  _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[9, 81, 5]",
+Option,"[81, 81, 25]"
+Option,"[9, 18, 5]"
+Option,"[9, 18, 5]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q10 array,,,
+QuestionText,"Specify the array's content after the following code segment is executed.                               int{] nums1 = {11, 22, 33, 44};                              int{] nums2 = {10, 20, 30, 40};                               int i = nums1.length - 1;                              nums2[3] = nums1[0];                              nums1[i-2] = nums2[2];                              nums1[0] = nums1[2] - 5;                              nums1[i] = nums2[i - 2];                              nums2[0] = nums1[3] + 5;                              nums2[1] = nums1[0];                              nums2[2] = nums2[0]; nums1[0]: _______ nums1[1]: _______ nums1[2]: _______ nums1[3]: _______  nums2[0]: _______ nums2[1]: _______ nums2[2]: _______ nums2[3]: _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[28, 30, 33, 20, 25, 28, 25, 11]",
+Option,"[25, 22, 30, 9, 9, 25, 9, 11]"
+Option,"[28, 30, 33, 20, 49, 28, 49, 11]"
+Option,"[28, 30, 31, 20, 25, 28, 25, 11]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q22 oo3-coding-creating-objects-calling-instance-method,,,
+QuestionText,"Given the following class definition, public class CandyBag{  private double calorie;  private int count;    public CandyBag()   {    this.calorie = 0;    this.count = 0;  }   public CandyBag(double calorie, int count)   {    this.calorie = calorie;    this.count = count;  }    public double totalCalorie()   {    return this.calorie * this.count;  }} Complete the TODOs in the code below:     //TODO 1: create a default CandyBag object    CandyBag empty = _______ ;       //TODO 2: create a CandyBag object that has 10 candies and each 15.5 calories    CandyBag mine = _______ ;      //TODO 3: get total calorie for the CandyBag object created in TODO1    double total1 = _______ ;      //TODO 4: get total calorie for the CandyBag object created in TODO2    double total2 = _______ ;      System.out.println(total1);      System.out.println(total2); ",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[new CandyBag();, new CandyBag(15.5, 10);, empty.totalCalorie(), mine.totalCalorie();]",
+Option,"[0, 10 Candies, total calorie, total calorie]"
+Option,"[, , , ]"
+Option,"[0, 150, 0, 15.5]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q6 method and if,,,
+QuestionText,"Read the method definition below:     public static String text(String name1, String name2, int direction)   {     String greeting;     if (direction == 1)     {       return "Hello from " + name1 + " to " + name2;     }     else     {       return "Hello from " + name2 + " to " + name1;     }   }   Given the code above, what is printed by the following code segment?        String result = "Hello";     result = text("Linda", "David", 2);     System.out.println(result);   Note that if there is no output, please specify "nothing" (no quotes) in the blank for the output. output:  _______",,,
+Points,2.5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[Hello from David to Linda]",
+Option,"[Hello from David to Linda"]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q2 if,,,
+QuestionText,"Specify the output of the following code segment.       int a = 5;     int b = 10;     int c = 20;       if ( (a * 2) <= b ) {         if ( b > c ) {           System.out.print("x");         } else if ( a < c ) {           System.out.print("y");         } else {           System.out.print("z");         }     } else {         a = a * 2;         if ( a < b ) {            System.out.print("w");         }     }                                                           Note that if there is no output, please specify "nothing" (no quotes) in the blank for the output.   Output of the code:  _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[y]",
+Option,"[yw]"
+Option,"[x]"
+Option,"[z]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q14-oo2-tracing-inst,,,
+QuestionText,"Given the following class definition, public class Pantry{  private int stages;  private int height;   public Pantry(int stages, int height)   {    this.stages = stages;    this.height = height;  }    public int get()   {    return this.stages + this.height;  }    public static int calc(int stages)   {    return stages * 2;  }} What is the output of the following code segment?     Pantry food = new Pantry(8, 7);    int x = food.get();    System.out.print(x + "-");    int y = Pantry.calc(10);    System.out.print(y); Output of the program:  _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[15-20]",
+Option,"[87-20]"
+Option,"[15 "-" 10]"
+Option,"[8]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q13-oo1-tracing-cons,,,
+QuestionText,"Given the following class definition, public class Container{  int type;  int beans;    public Container()   {    System.out.print("a");    this.type = 0;    this.beans = 0;  }    public Container(int type, int beans)  {    System.out.print("b");    this.type = type;    this.beans = beans;  }    public String toString()  {    return this.type + "-" + this.beans;  }} What is the output of the following code segment?     Container red = new Container();    Container green = new Container(2, 8);    System.out.print(red + "#");    System.out.print(green);  Output of the program:  _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[ab0-0#2-8]",
+Option,"[aba#b]"
+Option,"[green-]"
+Option,"[Container()#Container(2,8)]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q7 method and if,,,
+QuestionText,"Read the method definition below:     public static String text(String name1, String name2, int direction)   {     String greeting;     if (direction == 1)     {       return "Hello from " + name1 + " to " + name2;     }     else     {       return "Hello from " + name2 + " to " + name1;     }   }   Given the code above, what is printed by the following code segment?       String result = "Hello";     result = text("Bob", "Amy", 1);;     System.out.println(result);   Note that if there is no output, please specify "nothing" (no quotes) in the blank for the output. output:  _______",,,
+Points,2.5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[Hello from Bob to Amy]",
+Option,"["Hello from Bob to Amy"]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q23 oo4-coding-tostring,,,
+QuestionText,"Complete the TODOs in the code below: class LabeledBag{  private String label; //label of the bag  private int count;  //# candies in the bag    public LabeledBag()   {    this.label = "none";    this.count = 0;  }   public LabeledBag(String label, int count)   {    this.label = label;    this.count = count;  }    //TODO: define the toString method that returns   //      a summary of the object in the format below:  //      <label> has <count> candies.  //      where <label> is the label of the bag  //      and <count> is the # of candies  _______  //header of the method  {    _______  //return statement  }} public class Main_OO_1c2_toString_Practice{  public static void main(String[] args)  {    //TODO: create a default LabeledBag object    LabeledBag obj1 = _______ ;     //TODO: create a default LabeledBag object with label "gummy" and 10 candies    LabeledBag obj2 =  _______ ;        //TODO: print the return of obj1's toString method    System.out.println( _______ );       //TODO: print the return of obj2's toString method    System.out.println( _______ );   }  }",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[public String toString(), return this.label + " has " + this.count + " candies.";, new LabeledBag(), new LabeledBag("gummy", 10), obj1, obj2]",
+Option,"[toString, return, 0, gummy, return obj1 to String, return obj2 to String]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q3 if,,,
+QuestionText,"Specify the array's content after the following code segment is executed.     int a = 20;     int b = 40;     int c = 60;       if ( a + c < b ) {         if ( (b * 3) > c ) {             System.out.print("x");         } else if ( c >= a ) {             System.out.print("y");         } else {             System.out.print("z");         }     } else {         a = a * 2;         if ( a < b ) {             System.out.print("w");         }     }   Note that if there is no output, please specify "nothing" (no quotes) in the blank for the output.   Output of the code:  _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[nothing]",
+Option,"[x]"
+Option,"[xy]"
+Option,"[yz]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q12 array parameter,,,
+QuestionText,"Read the method definition below:   public static void modify(int[] param)  {    param[2] = param[1];    param[1] = param[0];    param[0] = param[2];  }   Given the code above, specify the array content after the following code segment is executed.     int[] nums = {1, 2, 3};    modify(nums); nums[0]:  _______ nums[1]: _______ nums[2]: _______",,,
+Points,5,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[2, 1, 2]",
+Option,"[1, 2, 3]"
+Option,"[3, 1, 2]"
+Option,"[3, 1, 2]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
+,,,,
+NewQuestion,MC,,,
+ID,CHEM110-237,,,
+Title,q1 basics,,,
+QuestionText,"What are variables' values after the following code segment is executed?     int first = 2;    int second = 4;    int third = 6;    third = second;    second = first * third;    first = third;    third = second;    first = second + third;    third = first / second;    second = first; first:  _______ second:  _______ third:  _______",,,
+Points,10,,,
+Difficulty,1,,,
+Image,images/MC1.jpg,,,
+Option,100,"[16, 16, 2]",
+Option,"[16, 2, 16]"
+Option,"[24, 24, 2]"
+Option,"[18, 12, 1.5]"
+Hint,This is the hint text,
+Feedback,This is the feedback text,
